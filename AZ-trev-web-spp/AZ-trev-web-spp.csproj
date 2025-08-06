@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>AZ_trev_web_spp</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/751f8d00-4ae8-4ca8-bde3-2d0288461327/resourceGroups/AZ-Reource-Grp/providers/microsoft.insights/components/AZ-trev-web-spp</ApplicationInsightsResourceId>
+    <UserSecretsId>bd5dd1a2-fd02-4772-808c-6809333dad5b</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.2" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
+  </ItemGroup>
 
 </Project>

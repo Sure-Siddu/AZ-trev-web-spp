@@ -14,6 +14,7 @@ namespace AZ_trev_web_spp.Pages
 
         public void OnGet()
         {
+            //throw new Exception("Testing Insights");
         }
     }
 
